@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lagrange stream| Main</title>
+    <script src="../static/jquery-1.10.2.js"></script>
+    <script src="../static/stream8.js"></script>
+    <link href="../static/streamWindow.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<center>
+<div id="header">Lagrange</div>
+<h1>Stream</h1>
+   <div id="window">
+    <div id="stream">
+<iframe src="https://www.youtube.com/embed/naPT-A7QJlE" height=100% width=100%></iframe>
+    </div>
+    <form method="post" action="/from_grin" role="form">
+    <fieldset>
+        <table>
+            <tr>
+                <td>x</td>
+                <td><input id="x" name="x" readonly></td>
+            </tr>
+            <tr>
+                <td>y</td>
+                <td><input id="y" name="y" readonly></td>
+            </tr>
+            <tr>
+                <td>time</td>
+                <td><input id="time" name="time"></td>
+            </tr>
+            <tr>
+                <td>link to picture</td>
+                <td><input id="link" name="link"></td>
+            </tr>
+        </table><br/>
+        <input type="button" id="start" value="START">
+    </fieldset>
+    </form>
+</div>
+</center>
+</body>
+</html>

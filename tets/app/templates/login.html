@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lagrange stream| Log in</title>
+    <link href="../static/login.css" rel="stylesheet" type="text/css">
+    <script src="../static/login.js"></script>
+</head>
+<body>
+<center>
+<div id="header">Lagrange</div>
+<h1>Login</h1>
+    <form method="POST" action="{{ url_for('ent') }}">
+    <fieldset>
+        <table>
+            <tr>
+                <td>login</td>
+                <td><input id="login" name="login"></td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td><input type="password" id="password" name="login"></td>
+            </tr>
+        </table>
+        <input type="submit" id="enter" value="ENTER">
+    </fieldset>
+</form>
+</center>
+</body>
+</html>
